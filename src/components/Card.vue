@@ -10,10 +10,7 @@
                     <h2 class="name">Smartimer of galaxy</h2>
                     <p class='shorttext'>Workflow and project management together in a timer</p>
                 </div>
-          </div>
-          <div class="content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro qui suscipit ducimus sint, culpa exercitationem? Doloribus exercitationem maiores fugit esse fugiat, nemo sit eaque reprehenderit dolorum officia pariatur reiciendis optio!</div>
-            
-              <img src="../assets/logo.svg"></img>
+                <Smartimer />
           </div>
           
       </div>
@@ -21,8 +18,12 @@
 </template>
 
 <script>
+import Smartimer from "@/components/project/Smartimer"
 export default {
     props:["item"],
+    components:{
+        Smartimer
+    },
     data: () => {
         return {
             styleObject: {
@@ -132,7 +133,7 @@ export default {
                 text-decoration:none;
                 text-align: left;
                 padding-left:20px;
-                padding-right:20px;
+                padding-right:50px;
             }
             .text .metier{
                 font-family: 'Work Sans', sans-serif;
