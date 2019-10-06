@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="38px" height="38px" viewBox="0 0 38 38" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <title>linkedinhov</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard-Copy-6" transform="translate(-546.000000, -590.000000)">
+            <g id="linkedinhov" transform="translate(546.000000, 590.000000)">
+                <path d="M19,0 C1.748,0 0,1.748 0,19 C0,36.252 1.748,38 19,38 C36.252,38 38,36.252 38,19 C38,1.748 36.252,0 19,0 Z" id="Path-Copy-3" fill="#2F3542"></path>
+                <g id="linkedin" transform="translate(8.000000, 9.000000)" fill="#CAD1D9">
+                    <rect id="Rectangle" x="0" y="7" width="5" height="13"></rect>
+                    <circle id="Oval" cx="2.5" cy="2.5" r="2.5"></circle>
+                    <path d="M22,11.6702563 L22,20 L16.9977306,20 L17.0981505,11.5828128 C17.0981505,11.5828128 16.8973108,9.63342666 14.6965846,9.80982124 C13.2447521,9.92741762 12.4022467,10.6601335 11.5954839,12.0622442 L11.5954839,20 L7,20 L7,6.53219901 L11.5954839,6.53219901 L11.5954839,8.17854835 C12.4669239,7.13374973 14.008964,6 16.5977533,6 C21.399183,6 22,9.89877235 22,11.6702563 Z" id="Path"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
