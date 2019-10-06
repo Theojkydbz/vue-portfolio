@@ -4,6 +4,7 @@
         <div class="container">
             
         </div>
+
         <div class="card-container">
             
             <div class="card-holder">
@@ -68,26 +69,6 @@ export default {
 </script>
 
 <style scoped>
-        .animate {
-        margin: 25px 0px;
-        }
-        .img-anim-enter-active, .img-anim-leave-active {
-        transition: transform 0.5s ease, opacity 0.5s ease;
-        }
-        .img-anim-enter{
-        transform: translateX(-100px);
-        opacity: 1;
-        border-radius: 0;
-        }
-        .anim-img-enter-to{
-        transform: translateX(0px);
-        opacity: 1;
-        }
-
-        .animate{
-            margin:0;
-            padding:0;
-        }
 
         .company *{
             color: white;

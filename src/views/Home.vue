@@ -2,7 +2,7 @@
   <div class="home">
     <Header />
     <Wrapper />
-    <Tester />
+    <Tester1 />
     <Project />
 
   </div>
@@ -13,7 +13,7 @@
 import Header from '@/components/home/Header.vue'
 import Project from '@/components/home/Project.vue'
 import Wrapper from '@/components/home/Wrapper.vue'
-import Tester from '@/components/Tester.vue'
+import Tester1 from '@/components/Tester1.vue'
 
 export default {
   name: 'home',
@@ -21,7 +21,7 @@ export default {
     Header,
     Project,
     Wrapper,
-    Tester
+    Tester1
   }
 }
 </script>
