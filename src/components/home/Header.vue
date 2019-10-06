@@ -13,7 +13,7 @@
       <div class="line">
         <p class="devise"> HUMAN CENTERED INTERACTION</p>
       </div>
-      <div class="line">
+      <div class="line social">
         <div class="social">
             <svg :opacity="opai" width="38px" height="38px" viewBox="0 0 38 38" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                 <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
@@ -124,41 +124,95 @@ export default {
 </script>
 
 <style scoped>
+.head .wrap{
+    display: block;
+  }
+
+.logo{
+  height: 10vh;
+  width: 10vh;
+  margin-right: 0;
+}
+.line *{
+  margin: 0 0 0 0;
+  padding: 5px;
+  
+  
+}
+h1{
+  font-family: Avenir-Medium;
+  font-size: 140%;
+  color: #2F3542;
+}
+.separateur{
+  display: none;
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 300;
+  font-size: 140%;
+  color: rgba(139,160,233,0.45);
+}
+.role{
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 300;
+  font-size: 140%;
+  color: #747D8C;
+}
+.devise{
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 300;
+  font-size: 130%;
+  color: #A4B0BE;
+}
+
+
+.social{
+  margin-top: 2vh;
+  margin: 0 auto;
+  margin-bottom: 10vw
+}
+
+
+
+@media only screen and (min-width : 450px){
+/* Styles pour cette Media Queries */
 
   .head .wrap{
     display: inline-block;
     vertical-align: text-top;
   }
 
-.logo{
-  height: 12vh;
-  width: 12vh;
-  margin-right: 2vh;
-}
+  .logo{
+    height: 15vh;
+    width: 15vh;
+    margin-right: 2vh;
+  }
+
   .line *{
     margin: 0 0 0 0;
     padding: 5px;
-    display: inline-block;
-    
-    
+    display: inline-block; 
   }
+
   h1{
     font-family: Avenir-Medium;
     font-size: 140%;
     color: #2F3542;
   }
+  
   .separateur{
     font-family: 'Work Sans', sans-serif;
     font-weight: 300;
     font-size: 140%;
     color: rgba(139,160,233,0.45);
   }
+
   .role{
     font-family: 'Work Sans', sans-serif;
     font-weight: 300;
     font-size: 140%;
     color: #747D8C;
   }
+
   .devise{
     font-family: 'Work Sans', sans-serif;
     font-weight: 300;
@@ -166,16 +220,17 @@ export default {
     color: #A4B0BE;
    
   }
-
-
-.social{
-  float: left;
-  margin-top: 2vh;
+  
+  .social{
+    float: left;
+    margin-top: 2vh;
+    
   }
 
-
-.social a:first-child{
-  padding-left:0px;
+  .social a:first-child{
+    padding-left:0px;
   }
+}
+
 
 </style>

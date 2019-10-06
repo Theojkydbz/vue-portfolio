@@ -38,9 +38,11 @@ export default {
             if(this.item.open){
                 document.body.style.top = '-' + window.scrollY+ 'px';
                 document.body.style.position = 'fixed';
+                
 
                 this.styleObject.transform = 
                     'translate('+viewportOffset.left * -1 + 'px, '+ viewportOffset.top * -1 +'px)';
+                
             } else {
                 this.styleObject = {
                     transform: 'translate(0px,0px)'
@@ -56,15 +58,8 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-        .card-wrapper {
-           
-
-        }
-        
 .card-wrapper{
-    margin-bottom: 20px;
-    width: 100%;
-    height: 450px;
+    margin-bottom: 20vh;
     margin:auto;
     max-width:1100px;
 
@@ -73,27 +68,26 @@ export default {
 
     .card {
         position: relative;
-        width: 100%;
-        height: 450px;
         border: 1px solid #ffffff;
         background-color: #efefef;
         overflow: hidden;
         cursor: pointer;
         z-index: 1;
-        transition: all 0.8s cubic-bezier(.6, 0, .45, 1.3);
+        transition: all 0.6s cubic-bezier(.65,0,.62,1.39);
         background-color: #ffffff;
         width: 90vw;
-        height: 75vh;
+        height: 120vw;
         
         box-shadow: 0 14px 100px -1px rgba(109, 109, 109, 0.29);
         margin-top:80px;
+        margin-bottom:80px;
         grid-template-columns: 1fr ;
         grid-gap: 3rem;
         display: grid;
         grid-auto-rows: 500px;
         grid-gap: 2.8rem;
         border-radius: 20px;
-        overflow: hidden;
+        
     
 
         &.open {
@@ -104,8 +98,11 @@ export default {
             height: 180vh;
             padding-left: 0;
             padding-right: 0;
+            overflow: scroll;
+            -webkit-overflow-scrolling: touch;
 
         }
+        
 
         .card-top, .title, .content, .img {
             pointer-events: none
@@ -117,7 +114,7 @@ export default {
 
             .img{
                 width: 100%;
-                height: 450px;
+                height: 100%;
                 background-image: url('../assets/proj1/cover.png');
                 background-position: center;
                 background-size: cover;
@@ -163,25 +160,6 @@ export default {
 }
 
 
-
-//         .card-container {
-//             margin:auto;
-//             max-width:1100px;
-
-//         }
-//         .card-holder {
-//             margin-top:80px;
-//             grid-template-columns: 1fr ;
-//             grid-gap: 3rem;
-//             padding-left: 5%;
-//             padding-right: 5%;
-//         }
-
-//         .card-holder {
-// 	        display: grid;
-//             grid-auto-rows: 500px;
-//             grid-gap: 2.8rem;
-//         }
 
        
 
